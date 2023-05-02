@@ -1,3 +1,3 @@
-Bienvenido
-Proyecto practico de Carrito de Compras en JS
+Bienvenido to my Project
 Autor:Byron Solano
+Twitter: @MultiSolano97
