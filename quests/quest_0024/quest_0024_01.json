@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0024_01b",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Hola!"
+    },
+    "description": {
+      "text": "Ah, casi olvido. Puedes traerme un pedazo de papel? Marcare la ubicacion de su escondite.."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui."
+    },
+    "description": {
+      "text": "Aqui. Por favor, apurate! No sabemos que planean hacer con el chico.."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+  {
+      "command": "/loot give @p loot minecraft:guard1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

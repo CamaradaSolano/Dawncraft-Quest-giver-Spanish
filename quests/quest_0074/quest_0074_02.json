@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0074_01",
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Necesito otra de tus $(red)Orbes Espirituales$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Haha... Joven, eres demasiado credulo. No confies en alguien con quien apenas has hablado. Te devolvere los orbes ya que me siento mal, pero recuerda esto: No todos son tan buenos como yo."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

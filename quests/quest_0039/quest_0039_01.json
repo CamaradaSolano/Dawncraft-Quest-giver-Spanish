@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 45,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "forajidos extranjeros"
+    },
+    "description": {
+      "text": "Puedes traerme un pedazo de papel para mi? te hare un mapa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui."
+    },
+    "description": {
+      "text": "Aqui, el grupo de forajidos extranjeros construyo un lugar donde esta el marcador. Ve y elimina al lider.."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+  {
+      "command": "/loot give @p loot minecraft:cartographer1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

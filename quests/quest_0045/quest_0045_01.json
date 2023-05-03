@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Conseguiste las $(red)5 Varas de Blaze$()? No te preocupes, Se lo dificil que podria ser."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Bien Hecho. estos materiales son dificiles de conseguir aqui en el pueblo. Los usare con moderacion. gracias."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:blaze_rod"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cleric",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0035_01b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Afilando Cuchillos"
+    },
+    "description": {
+      "text": "Ya me conseguiste la $(red)5 piedra de pizzarra profunda$()? Mi espada se esta desafilando."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Completado"
+    },
+    "description": {
+      "text": "Buen Trabajo! Como era de esperar, estas rocas contienen niveles de grano grueso y fino. Muchas gracias! Toma, tomalo, es tu recompensa."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:deepslate"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

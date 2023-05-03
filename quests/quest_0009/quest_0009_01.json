@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0009_01b",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Solicitud"
+    },
+    "description": {
+      "text": "Por favor, regresa cuando hayas conseguido los $(red)4 sacos de tinta$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Muchas gracias. Desafortunadamente, descubri que nuestro suministro de papel tambien se esta agotando.... Crees que puedes ayudarnos a conseguir 10 hojas de papel por ahora? Pronto repondremos, pero agradeceriamos mucho tu ayuda."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ink_sac"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

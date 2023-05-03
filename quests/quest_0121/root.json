@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "El Ender Guardian conserva un objeto muy importante. Quieres saber donde esta?"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 24,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Podrias conseguirme una $(red)piedra turquesa$() de la dimension del Everbright? tengo curiosidad de como se ve"
+    }
+  }
+}

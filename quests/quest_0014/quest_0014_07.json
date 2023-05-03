@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0014_06",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino a los PortaOjos"
+    },
+    "description": {
+      "text": "Elsiguiente PortaOjos es un no-muerto. Un no-muerto con muchos trucos bajo la manga para ser precisos... Esta rodeado de sus seguidores, por lo que es posible que tengas problemas para llegar a el."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino a los PortaOjos"
+    },
+    "description": {
+      "text": "El Lord de los Esqueletos es probablemente el no-muerto mas poderoso que he visto en mi vida. Me sorprende que seas capaz de derribarlo. Muy bien, veamos... El siguiente ojo esta custodiado por un renombrado Caballero Sagrado. No estoy seguro de si es posible incluso para ti. De todos modos, te dare su ubicacion. Proceda con precaucion."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:magical_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster5",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:skeleton_lord_quest_complete",
+      "id": "quest_giver:command"
+    }
+  ]
+}

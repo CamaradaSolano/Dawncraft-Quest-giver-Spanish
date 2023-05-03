@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0001_02b",
+  "reputation": 5,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "Hola otra vez!"
+    },
+    "description": {
+      "text": "Hola otra vez! Ya me trajiste el papel? Quiero hacerte un mapa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui."
+    },
+    "description": {
+      "text": "Aqui. Hay una casa infestada de esos cazadores enfermos... Uno de mis buenos amigos rastreo su ubicacion y la marco en el mapa aqui.. Estoy seguro de que se han estado abasteciendo de botines que obtuvieron de sus enemigos....Matalo y consegui el Botin. Y si puedes, busca un collar que me robaron. Les gusta esconder cosas debajo de la mesa.. revisa si puedes encontrarlo, Hare todo lo posible para pagarte si alguna vez me devuelves ese collar.!"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+  {
+      "command": "/loot give @p loot minecraft:armorer1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

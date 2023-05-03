@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0060_01b",
+  "reputation": 0,
+  "icon": "minecraft:oak_boat",
+  "start": {
+    "title": {
+      "text": "Fabricacion de barcos"
+    },
+    "description": {
+      "text": "Recuerda, el barco tiene que estar hecho con el material $(red)Balsa marchita$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Esta pasable, le vendria bien un poco mas de trabajo. Pero esto servira, gracias. Aqui esta tu recompensa, creo que te gustara."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "biomemakeover:blighted_balsa_boat"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fisherman",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "quest_giver:quest_0115_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Una oferta"
+    },
+    "description": {
+      "text": "6 Esmeraldas si quieres que te muestre donde esta la Monstruosidad en el Nether."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Aqui tienes, feliz caza! Recuerda, este mapa solo funcionara si lo abres en el Nether. Abrir este mapa aqui solo le dara un mapa en blanco. Seguro que es confuso, eh?"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 6
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_1"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Una Solicitud Curiosa"
+    },
+    "description": {
+      "text": "Excelente. Basicamente, un oceanografo me dijo que hay unas criaturas en el mar llamadas Guardianes a las que les salen puas... Me resulta dificil de creer, ya que nunca me habia encontrado con algo asi en toda mi vida en la costa. Si alguna vez te encuentras con uno y decides matarlo, podrias darme una de sus $(red)Puas$() como prueba de su existencia? Sin embargo, escuche del Oceanografo decir que solo el grande dropea su pua al morir.."
+    }
+  }
+}

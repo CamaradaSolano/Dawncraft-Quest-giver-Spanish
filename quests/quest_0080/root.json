@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Hola tu, Podrias traerme un par de tijeras? la mio se rompio hace un momento."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "Genial!"
+    },
+    "description": {
+      "text": "Dicen que hay un bioma dentro de esta dimensiin en el que los vapores fluyen sobre el agua de manantial hirviendo y la niebla magica cubre toda la cima. Valiente aventurero, si alguna vez te encuentras con un lugar asi, vuelve y cuentame como es realmente.!"
+    }
+  }
+}

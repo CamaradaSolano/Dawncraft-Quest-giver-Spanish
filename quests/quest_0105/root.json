@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Hey chico, Puedes conseguirme un trozo de $(red)Tronco de escarcha brillante$()? Se puede encontrar en la dimension del Everbright.."
+    }
+  }
+}

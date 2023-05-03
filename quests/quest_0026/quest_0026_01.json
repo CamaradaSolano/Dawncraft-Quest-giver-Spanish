@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "Sabias que?"
+    },
+    "description": {
+      "text": "Sabias que? Hay caras nuevas en la dimension. Los rumores dicen que estos hombres usan armaduras fabulosas y espadas irrompibles. He tenido la oportunidad de ver algunos de sus estilos de armaduras... Hermosos, pero no practicos. Un martillo decente puede atravesarlo con facilidad.haha!"
+    }
+  }
+}

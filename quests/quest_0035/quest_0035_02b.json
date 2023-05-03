@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0035_01",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Incendium"
+    },
+    "description": {
+      "text": "Ah, regresas tan rapido? Bueno, has estado en el Nether? Hay un bioma llamado Yermos Humeantes en el Nether. Mira si puedes encontrar un castillo alli, incluso si no puedes, regresa. Quiero saber como es ese lugar, por favor."
+    }
+  }
+}

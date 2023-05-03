@@ -1,0 +1,39 @@
+{
+  "parent": "quest_giver:quest_0094_01b",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Vuelve a mi una vez que hayas hecho el platillo $(red)End Delight$(). Te pagare generosamente por ello.."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Este sabor...! Al igual que la cocina de mi madre... Gracias aventurero, no tienes idea de lo agradecido que estoy por esto. Aqui, ten esto. Es una katana forjada con poder del End. Dudo que haya un arma por ahi mas fuerte que esta."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "nourished_end:end_delight"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "scattered_weapons:darkkatana"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "Buscame algo!"
+    },
+    "description": {
+      "text": "hay algo que necesito! puedes ayudarme a buscar $(red)4 lingotes de hierro$()? me faltan materiales para hacer una armadura... te lo devolvere algun dia, lo prometo!"
+    }
+  }
+}

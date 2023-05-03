@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Carne exotica"
+    },
+    "description": {
+      "text": "Aqui en el pueblo generalmente solo obtenemos los tipos comunes de carne. Escuche que hay criaturas llamadas canguros que tienen carne tierna y jugosa en la cola. Podrias traerme un trozo de su carne? Y tambien me gustaria echar un vistazo a su piel.."
+    }
+  }
+}

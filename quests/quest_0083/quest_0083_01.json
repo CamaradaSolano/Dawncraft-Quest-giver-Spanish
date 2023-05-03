@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0083_01b",
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Un articulo precioso"
+    },
+    "description": {
+      "text": "Por favor, dame un pedazo de $(red)papel$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Aqui tienes, por favor devuelveme mi amada hacha. Es mi mejor trabajo hasta ahora."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:toolsmith1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

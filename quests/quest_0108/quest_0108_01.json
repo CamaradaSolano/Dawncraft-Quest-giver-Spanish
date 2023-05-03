@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "Entonces?"
+		},
+		"description": {
+			"text": "Puedo adiestrar con esa habilidad - Guardia energizante por solo 15 esmeraldas."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Gracias!"
+		},
+		"description": {
+			"text": "Aqui tienes"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 15
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"epicfight:energizing_guard\"}",
+		"id": "quest_giver:command"
+	}]
+}

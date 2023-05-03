@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0035_02b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Incendium"
+    },
+    "description": {
+      "text": "Recuerda, Yermos humeantes en el Nether. regresa a mi despues de ir ahi."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Completado"
+    },
+    "description": {
+      "text": "Eso es fascinante... Gracias por hablarme de ese lugar. Aqui esta tu recompensa. Bueno, vete ya... Tengo que tomar una decision importante.."
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "custom:scarlet_rot"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

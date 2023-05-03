@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0040_02b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Entonces, conseguiste el escutelo?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Oh Bueno, que tenemos aqui. Espero que esa tarea no te haya dejado ninguna cicatriz, haha! Aqui esta tu recompensa, escuche que a los tuyos les gustan los diamantes.."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:crocodile_scute"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

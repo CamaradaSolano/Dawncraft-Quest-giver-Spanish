@@ -1,0 +1,11 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 16,
+	"icon": "minecraft:iron_pickaxe",
+	"start": {
+		"title": {
+			"text": "Sculk"
+		},
+		"description": "Mientras estaba minando, encontre algo raro en las profundidades de la pizarra profunda. Esporas infestadas y chillidos agudos rodearon el area. Escuche de otros mineros que estas infestaciones se llaman $(red)sculks$(), y que tuve suerte de salir con vida... Sin embargo, estoy fascinado por los chillidos y las infestaciones. Seria posible que me consigas uno de esos $(red)sculk aullador$() de la oscuridad profunda?"
+	}
+}

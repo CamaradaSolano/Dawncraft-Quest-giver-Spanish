@@ -1,0 +1,12 @@
+{
+  "reputation": 18,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Los aldeanos originarios solian usar algo mas que arcos para cazar... Puedes adivinar que es eso?"
+    }
+  }
+}

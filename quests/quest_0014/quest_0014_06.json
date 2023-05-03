@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_05",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino a los PortaOjos"
+    },
+    "description": {
+      "text": "Hm... el Nueve Colas no es exactamente un humano. Oh bueno, lo sabras cuando lo veas."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino a los PortaOjos"
+    },
+    "description": {
+      "text": "Hmmph... En este punto ni siquiera estoy sorprendido. Buen trabajo. El Nueve Colas era un espiritu notoriamente violento... No tengo idea de por que decidio retirarse a un granero abandonado. De todos modos, aqui esta el paradero del siguiente PortaOjos. Cuidado, esto no se parece en nada a los que has enfrentado antes.."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:exotic_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add magic level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add smithing level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:nine_tails_quest_complete",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

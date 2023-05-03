@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:quest_0054_01",
+	"reputation": 5,
+	"icon": "minecraft:wheat_seeds",
+	"start": {
+		"title": {
+			"text": "Entonces?"
+		},
+		"description": {
+			"text": "Dejame saber si podrias hacer $(red)2 rebanadas de pan$() para nosotros. sin prisa igualmente!"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Gracias!"
+		},
+		"description": {
+			"text": "Muchas gracias! Acepte esto, no es mucho, pero es todo lo que puedo pagar en este momento.."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:bread"
+		},
+		"id": "quest_giver:gift",
+		"times": 2
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_farmer",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 2",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 2
+		}
+	]
+}

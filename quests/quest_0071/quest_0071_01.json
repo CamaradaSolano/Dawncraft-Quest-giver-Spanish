@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Recuperando un articulo precioso"
+    },
+    "description": {
+      "text": "Por favor, traeme un pedazo de papel para que pueda hacerte un mapa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui."
+    },
+    "description": {
+      "text": "Lo siento por la molestia. Este es el lugar al que quiero que vayas. Hay un libro alli que me pertenecia. Ese lugar solia ser un templo lleno de eruditos de toda la dimension, pero no se como es ahora. Por favor, proceda con precaucion y traigame mi libro.."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+  {
+      "command": "/loot give @p loot minecraft:librarian1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

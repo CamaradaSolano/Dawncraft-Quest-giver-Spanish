@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Seguimiento del tiempo"
+    },
+    "description": {
+      "text": "Escuche que hay cosas que te ayudan a llevar la cuenta del tiempo. Esos se llaman... como era, oh cierto - $(red)Reloj de arena$()! Puedes conseguirme uno de esos?"
+    }
+  }
+}

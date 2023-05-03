@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0086_01",
+  "reputation": 37,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Ayuda"
+    },
+    "description": {
+      "text": "Excelente. Necesito que extermines a cualquier saqueador que puedas encontrar. Necesitamos distraerlos para que no tengan tanto tiempo planeando su ataque... Vuelve a mi despues de que hayas matado a 5."
+    }
+  }
+}

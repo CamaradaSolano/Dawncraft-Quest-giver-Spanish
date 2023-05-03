@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Hey chico, puedes conseguirme un pedazo del $(red)tronco del amanecer$()? Se puede encontrar en la dimension del Everdawn."
+    }
+  }
+}

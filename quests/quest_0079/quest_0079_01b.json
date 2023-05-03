@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Solicitud de exterminio"
+    },
+    "description": {
+      "text": "Los creepers aparecen con mas frecuencia por aqui en la noche... No nos hacen molestan, pero ahuyentan a nuestros pobres corderos. Puedes exterminarlos por la noche? Te pagare una vez que hayas alcanzado las 6 muertes."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Hola, podria ayudarme a conseguir 2 trigo cultivado de la granja para mi? Lo necesito para criar mis lanudos."
+    }
+  }
+}

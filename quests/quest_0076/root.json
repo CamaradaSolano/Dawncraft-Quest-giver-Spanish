@@ -1,0 +1,12 @@
+{
+  "reputation": 28,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Podrias conseguirme una $(red)Piedra Lunar$() de la dimension del Everdawn? tengo curiosidad de la calidad."
+    }
+  }
+}

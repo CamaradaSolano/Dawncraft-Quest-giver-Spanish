@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Consejo"
+    },
+    "description": {
+      "text": "Sabias? El FrostMaw le arrebato el Ojo Congelado al Yeti que lo custodiaba! Ya escuche esta historia de un par de viajeros, asi que debe ser verdad... Que mundo tan caotico en el que vivimos."
+    }
+  }
+}

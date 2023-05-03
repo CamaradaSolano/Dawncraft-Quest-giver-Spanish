@@ -1,0 +1,39 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Mapa del Ender Guardian"
+    },
+    "description": {
+      "text": "Nada es gratis amigo. Dame 5 esmeraldas y te dare la direccion al Ender Guardian."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Muy bien, aqui tienes. Recuerda, no abras este mapa hasta que estes realmente en el End. No digas que no te avise."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_3"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

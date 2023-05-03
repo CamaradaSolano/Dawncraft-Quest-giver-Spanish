@@ -1,0 +1,11 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 16,
+	"icon": "minecraft:iron_pickaxe",
+	"start": {
+		"title": {
+			"text": "Corazon de Dragon"
+		},
+		"description": "Me encontre con un minero bastante raro hace un tiempo. Me ofrecio 2 orbes espirituales por un mapa de un monumento oceanico... Le di el mapa y obtuve estos orbes inutiles, ahora estoy buscando deshacerme de ellos. Valiente aventurero, podrias conseguirme el corazon de un $(red)Dragon de Hielo$()? Es invaluable para mi investigacion... Te dare algo de tiempo para pensarlo."
+	}
+}

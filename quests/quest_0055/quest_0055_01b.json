@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Las especias parecen ser la nueva moda en este pueblo... Estoy buscando cultivar el pimiento mas picante conocido y obtener ganancias, haha! Has oido hablar de un tipo de pimienta llamada 'pimienta fantasma' que se puede encontrar en el Nether? Bueno, necesito que recolectes $(red)3 pimientas fantasma$() y me lo traigas."
+    }
+  }
+}

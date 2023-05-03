@@ -1,0 +1,34 @@
+{
+	"parent": "quest_giver:quest_0014_01b",
+	"reputation": 5,
+	"icon": "minecraft:enchanted_book",
+	"start": {
+		"title": {
+			"text": "Una Habilidad Basica"
+		},
+		"description": {
+			"text": "Regrese despues de haber cumplido con los requisitos - $(red)Asesina a 10 saqueadores$()."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Una Habilidad Basica"
+		},
+		"description": {
+			"text": "Aqui, solo abre el libro y aprende la habilidad. Si desea obtener mas libros de habilidades, le sugiero que haga algunos de los pedidos del Guardia. Buena suerte en tu viaje."
+		}
+	},
+	"tasks": [{
+		"entity": "minecraft:pillager",
+		"id": "quest_giver:kill",
+		"times": 10
+	}],
+	"rewards": [{
+		"command": "/give @p epicfight:skillbook{skill:\"epicfight:roll\"}",
+		"id": "quest_giver:command"
+	},
+        {
+          "command": "/loot give @p loot minecraft:guildmaster0",
+          "id": "quest_giver:command"
+        }]
+}

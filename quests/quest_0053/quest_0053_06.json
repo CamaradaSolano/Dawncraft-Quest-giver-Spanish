@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0053_05",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Bueno, que presuntuoso de tu parte. No mencione nada sobre una recompensa, o si? Corre ahora, chico, antes de que te atrapen los guardias."
+    }
+  }
+}

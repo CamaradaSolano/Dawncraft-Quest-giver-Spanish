@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0001_01b",
+  "reputation": 5,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "Buscame algo!"
+    },
+    "description": {
+      "text": "Hey! Ya tienes los $(red)4 lingotes de hierro$() para mi?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Gracias! Finalmente podre hacer la armadura para aquel guardia...! No tengo nada para ofrecerte, pero prometo que te pagare algun dia!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

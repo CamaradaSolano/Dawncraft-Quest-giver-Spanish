@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0040_01",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Mapa"
+    },
+    "description": {
+      "text": "Vuelves por mas, eh? Bueno, tengo otro desafio para ti, caza a las bestias reptilianas llamadas cocodrilos y traeme su escutelo. Estas criaturas residen en biomas de pantano. Sin embargo, ten cuidado, estas criaturas son ridiculamente fuertes.."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Si te hacer llamar aventurero, debes tener una brujula! Crea una $(red)Brujula$() y regresa conmigo."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Desbloquear Mesa de Cartografia"
+    },
+    "description": {
+      "text": "Oh... hm, muy bien. Dame 15 esmeraldas y te mostrare como utilizarla."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui tienes."
+    },
+    "description": {
+      "text": "No se deje intimidar por los equipos sobre la mesa, lo dominara!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

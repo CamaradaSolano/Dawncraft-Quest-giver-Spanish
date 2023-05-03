@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0114_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Ya se te olvido? Derrota al fantasma de la capitana Cornelia a melee. Luego ven a mi para darte tu recompensa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Demente! En realidad lo has hecho! Toma, toma tu recompensa. Escuche que a ustedes les gustan los diamantes, verdad? Ten algunos!"
+    }
+  },
+  "tasks": [
+    {
+      "entity": "ob_aquamirae:captain_cornelia",
+      "id": "quest_giver:kill",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_oceanographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

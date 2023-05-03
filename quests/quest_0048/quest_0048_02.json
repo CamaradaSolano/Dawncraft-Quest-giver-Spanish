@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0048_01",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "HAHAHAHA! LLUVIA VENENO SOBRE NOSOTROS!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Bueno, gran trabajo. Eres un heroe. Es eso lo que querias oir?"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "custom:begone_witch/begone_witch"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement revoke @p only custom:tricked/tricked",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:dirt"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

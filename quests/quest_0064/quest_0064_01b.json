@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 18,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Fabricando Resortera - Slingshot"
+    },
+    "description": {
+      "text": "Asi es, Resortera! He estado tratando de hacer que uno funcione, pero parece que me falta la artesania necesaria para crear una replica utilizable. Puedes intentarlo?"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+	"parent": "quest_giver:quest_0073_01b",
+	"reputation": 8,
+	"icon": "minecraft:book",
+	"start": {
+		"title": {
+			"text": "Conocimientos en Ingenieria Forestal"
+		},
+		"description": {
+			"text": "Los 3 tipos de hojas a recoger son: $(red)Hojas del anochecer, hojas de arce, hojas de luz estelar$()."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Gracias!"
+		},
+		"description": {
+			"text": "Esto es fascinante! Como es que hay rasgos comunes en plantas que crecen en ambientes completamente diferentes? De todos modos, aqui esta tu recompensa."
+		}
+	},
+	"tasks": [{
+			"item": {
+				"item": "blue_skies:dusk_leaves"
+			},
+			"id": "quest_giver:gift",
+			"times": 1
+		},
+		{
+			"item": {
+				"item": "blue_skies:maple_leaves"
+			},
+			"id": "quest_giver:gift",
+			"amount": 1
+		},
+		{
+			"item": {
+				"item": "blue_skies:starlit_leaves"
+			},
+			"id": "quest_giver:gift",
+			"amount": 1
+		}
+	],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_librarian",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 3",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "ars_nouveau:source_gem"
+			},
+			"id": "quest_giver:item",
+			"times": 20
+		}
+	]
+}

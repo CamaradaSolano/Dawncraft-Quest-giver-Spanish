@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_04",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino al PortaOjos"
+    },
+    "description": {
+      "text": "Tenemos muy poca informacion sobre El caballero Ladron en su estado actual, pero deberia estar bastante debilitado desde la ultima guerra... Oh, recuerda traer perlas de Ender. Tiene un ataque desagradable del que solo se puede escapar a traves de la teletransportacion."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino al PortaOjos"
+    },
+    "description": {
+      "text": "Wow, has derrotado al Caballero ladron eh.Era Poderoso? En el pasado, era uno de los oponentes mas aterradores que podias enfrentar en un duelo, supongo que su edad finalmente lo alcanzo. Bueno, el proximo PortaOjos es otro humano. Actualmente vive pacificamente en su granja... Aqui esta el mapa de su ubicacion."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:rogue_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add crafting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add engineering level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

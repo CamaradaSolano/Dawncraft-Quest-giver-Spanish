@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0014_02",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino a los PortaOjos"
+    },
+    "description": {
+      "text": "ves el mapa que te di? Tu primera mision es exterminar al $(red)Rey Goblin$(). Se pueden encontrar encima de sus castillos.."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino a los PortaOjos"
+    },
+    "description": {
+      "text": "Buen trabajo. Parece que estas listo para enfrentarte al $(red)Ogro Corrupto$(). Aqui, la criatura habita en el lugar marcado y tiene uno de los ojos."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "goblinsanddungeons:goblin_crown"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster1",
+      "id": "quest_giver:command"
+    },
+     {
+      "command": "/advancement grant @p only simple_mobs:goblin_king_quest_complete",
+      "id": "quest_giver:command"
+    }
+  ]
+}

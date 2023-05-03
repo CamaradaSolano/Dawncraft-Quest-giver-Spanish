@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Quieres que te instruya a usar la Afiladora? Te costara 10 esmeraldas."
+    }
+  }
+}

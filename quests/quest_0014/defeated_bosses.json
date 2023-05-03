@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:emerald",
+  "start": {
+    "title": {
+      "text": "Hecho!"
+    },
+    "description": {
+      "text": "Oh? Ya derrotaste al portador de los ojos antes de que te diera el mapa? Huh... Muestrame el ojo exacto que dejo caer el ojo. De hecho, dejalo y recogelo... No preguntes el por que.!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "El fin del Camino"
+    },
+    "description": {
+      "text": "No tengo mas informacion para darte amigo. Sigue tu llamado."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ]
+}

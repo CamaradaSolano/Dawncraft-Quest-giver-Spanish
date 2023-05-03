@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0111_01",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Ya exterminaste al habitante de la cueva? Si es asi traeme su loot."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Buen trabajo! este es uno de sus ojos... A ver, te instruyo con la habilidad de combate - Guardia, como pago. Es una de las habilidades mas importantes que uno podria aprender en esta dimension.."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:giant_eye_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:guard\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

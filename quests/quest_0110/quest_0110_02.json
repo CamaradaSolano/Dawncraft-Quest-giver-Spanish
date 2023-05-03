@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0110_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Ya exterminaste al habitante de la cueva? Si es asi traeme su loot."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Es raro imaginar una criatura con una armadura natural tan dura... Bueno, me alegro de que este muerto. ten, te dare una nueva habilidad como pago - Pasos."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:dweller_armor_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:step\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

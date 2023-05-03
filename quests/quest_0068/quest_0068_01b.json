@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Ayuda"
+    },
+    "description": {
+      "text": "Fantastico. Podrias cocinar un plato llamado $(red)Jamon con glaseado en miel$()? Mis amigos y yo nos morimos por volver a probar este plato.."
+    }
+  }
+}

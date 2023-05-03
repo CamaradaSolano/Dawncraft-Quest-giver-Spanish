@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "Ven Aqui!"
+    },
+    "description": {
+      "text": "Aqui! charlemos, quieres?"
+    }
+  }
+}

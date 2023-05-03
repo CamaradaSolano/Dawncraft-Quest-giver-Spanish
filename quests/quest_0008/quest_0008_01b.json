@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Ayuda"
+    },
+    "description": {
+      "text": "He oido cosas buenas sobre tu trabajo. Necesito que recolectes algunos articulos exoticos, especificamente: $(red) piel de leon$(). Necesito 4 de esos. Vuelve cuando tengas los hayas conseguido."
+    }
+  }
+}

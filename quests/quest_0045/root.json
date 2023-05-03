@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Hola, Podrias ayudarme a conseguir $(red)5 Varas de Blaze$()? del Nether?"
+    }
+  }
+}

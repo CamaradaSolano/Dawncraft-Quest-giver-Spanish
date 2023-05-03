@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Conocimientos en Ingenieria Forestal"
+    },
+    "description": {
+      "text": "Gracias por escuchar mi peticion. Recientemente me interese en la Ing Forestal y, por lo tanto, he estado estudiando mucho sobre los arboles en nuestra dimension; Sin embargo, parece que hay otros tipos peculiares de arboles en otras dimensiones, como el Everbright y Everdawn. Crees que puedes ayudarme a reunir un bloque de $(red)hojas del anochecer, Hojas de Arce y Hojas de luz estelar$() cada uno para mi investigacion? "
+    }
+  }
+}

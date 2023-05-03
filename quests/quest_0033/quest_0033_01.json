@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0033_01b",
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Carne Exotica"
+    },
+    "description": {
+      "text": "Pudiste conseguir la$(red) carne y piel de kanguro$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Buena Fortuna!"
+    },
+    "description": {
+      "text": "Ahh... asi que asi es como es luce el canguro. De hecho, un tierno trozo de carne... La piel, por otro lado, no es tan buena como la piel normal que usamos. Aunque un es buen trofeo... Muchas gracias aventurero. No tengo mucho para darte... Ten, toma estas rebanadas de carne. El cadaver acaba de llegar hoy, asi que esta fresco!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_meat"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    },
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_hide"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:beef"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

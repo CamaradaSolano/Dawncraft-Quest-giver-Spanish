@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Fabricacion de barcos"
+    },
+    "description": {
+      "text": "Excelente. Podrias ayudarme a hacer un bote para pescar? La caoba suele ser el mejor tipo de madera, pero en esta dimension tenemos una mejor opcion - $(red)Balsa marchita$(). Haz un bote con eso y damelo... Confio en que como aventurero hayas tenido mucha experiencia haciendo uno, verdad?"
+    }
+  }
+}

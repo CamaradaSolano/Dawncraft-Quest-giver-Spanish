@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0064_01b",
+  "reputation": 18,
+  "icon": "supplementaries:slingshot",
+  "start": {
+    "title": {
+      "text": "Fabricando Resortera - Slingshot"
+    },
+    "description": {
+      "text": "No pudiste fabricar la $(red)Resortera$() todavia huh? bueno, lo entiendo.. Una muy buena es dificil de fabricar."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Si, esto es exactamente lo que habia imaginado que seria! Hm... No parece tan impresionante. Parece que usa piedras como municion... Bueno, aqui tienes, realmente no lo necesito. gracias por mostrarmelo!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

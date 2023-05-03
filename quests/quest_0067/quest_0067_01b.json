@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Ayuda"
+    },
+    "description": {
+      "text": "Necesito que consigas $(rojo)2 pieles de oso blanco$(). Pueden ser un poco mas dificiles que otros tipos de osos, asi que ten cuidado. Vuelve cuando tengas los bienes.."
+    }
+  }
+}

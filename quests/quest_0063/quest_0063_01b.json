@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Artesano de flechas"
+    },
+    "description": {
+      "text": "Sabias que la madera de abeto es la mejor para hacer el asta de una flecha? Bueno, no importa de cualquier forma. Podrias traerme algunos de esos troncos? necesito por lo menos 4."
+    }
+  }
+}

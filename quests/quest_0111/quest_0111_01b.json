@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Ayuda"
+    },
+    "description": {
+      "text": "Hay un devorador de hombres $(red)Gigante$() Viviendo cerca de nosotros. Algunos de nuestros aldeanos y guardias ya han sido asesinados por el. Los guardias, incluyendome a mi, estan demasiado intimidados por su gran volumen. Pero hasta donde sabemos, no es demasiado fuerte o inteligente. Creo que podras enfrentarte a el.."
+    }
+  }
+}

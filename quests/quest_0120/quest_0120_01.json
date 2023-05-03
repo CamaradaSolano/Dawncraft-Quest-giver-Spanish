@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Corazon de Dragon"
+    },
+    "description": {
+      "text": "El mapa al podio de invocacion te costara 5 esmeraldas."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Encantado de hacer negocios contigo, amigo."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:cartographer2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

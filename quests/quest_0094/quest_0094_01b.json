@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Ayuda"
+    },
+    "description": {
+      "text": "Hay un plato llamado End Delight. Es un plato que solo se puede preparar con ingredientes que se encuentran en el End... Por favor, reune todos los recursos y cociname uno.."
+    }
+  }
+}

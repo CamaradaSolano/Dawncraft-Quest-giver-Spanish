@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0058_01b",
+  "reputation": 15,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "Solicitud de caza"
+    },
+    "description": {
+      "text": "(*Te das cuenta de que no es asi como atacan los tiburones; Y que solo algunos de los tipos de tiburones mas pasivos como $(red)Tiburon martillo$() dejan caer sus dientes cuando mueren. Pero decides quedarte en silencio.*)"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Hahahaha.... Grabare el nombre de mi hermana en esta cosa y la usare como colgante. Gracias aventurero, aqui esta tu recompensa.."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:shark_tooth"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:salmon"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    }
+  ]
+}

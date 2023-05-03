@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Hola"
+    },
+    "description": {
+      "text": "El sombreros de mi amigo y el mio estan un poco rotos. Queremos hacer un sombrero nuevo... Podrias conseguirme un poco de $(red)Bala de Heno$()?"
+    }
+  }
+}

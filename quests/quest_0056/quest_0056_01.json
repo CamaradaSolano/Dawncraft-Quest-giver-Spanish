@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0056_01b",
+  "reputation": 14,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Una Solicitud Curiosa"
+    },
+    "description": {
+      "text": "Encontraste al $(red)Guardian Grande$()? Si es asi dame su pua."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Esto es... extraordinario. El oceano esta lleno de misterio... Tambien he oido historias de calamares gigantes, supongo que eso tambien seria cierto. De todos modos, aqui esta tu recompensa. Gracias por eso."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "progressivebosses:elder_guardian_spike"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

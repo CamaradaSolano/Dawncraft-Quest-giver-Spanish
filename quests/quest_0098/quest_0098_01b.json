@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Ayuda"
+    },
+    "description": {
+      "text": "Gracias por escuchar mi peticion. Conoces las 'torres de batalla' en esta dimension? Estan en todas partes del mundo. Estoy particularmente interesado en las Land Towers y el golem que reside dentro. El ojo que el guardian suelta tiene una tremenda energia cinetica... Crees que puedes ayudarme a conseguir uno para mi investigacion?"
+    }
+  }
+}

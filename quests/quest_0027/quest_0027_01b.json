@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "Caceria de Espiritus"
+    },
+    "description": {
+      "text": "Los espiritus se manifiestan en la dimension en muchas formas. A veces poseen objetos, espadas e incluso armaduras! Intenta cazar $(red)5 armaduras poseidas... o huecas$(), o como quieras llamarlo, y te dare una recompensa por tu valentia.. Que te parece?"
+    }
+  }
+}

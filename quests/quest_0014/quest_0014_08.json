@@ -1,0 +1,51 @@
+{
+  "parent": "quest_giver:quest_0014_07",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino a los PortaOjos"
+    },
+    "description": {
+      "text": "El Caballero Centinela protegio al Ojo Guardian durante siglos. Ninguno de los aventureros que conozco lo adelanto... Escuche que tiene la llave que libera el ojo de su estado latente."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino a los PortaOjos"
+    },
+    "description": {
+      "text": "Asombroso. Incluso el Caballero Centinela no es rival para ti... Bueno, te estas acercando al final de tu viaje. Como te sientes? ... De todos modos, tendras que convocar al siguiente PortaOjos. Toma, lleva este mechon de cabello y el mapa a su altar de invocacion.."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:guardian_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster6",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "simple_mobs:giant_knot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p fire_giant",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:sentinel_knight_quest_complete",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

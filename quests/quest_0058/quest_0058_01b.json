@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Solicitud de caza"
+    },
+    "description": {
+      "text": "Dios lo bendiga. Por favor, ayudame a cazar a esas repugnantes y viles criaturas en el oceano. Los biologos los llaman tiburones. Los llamo los demonios del mar. Mientras estaba en el mar, vi... los vi destrozar a mi hermana, miembro por miembro. Por favor, ayudame a vengarme, mata a esas criaturas repugnantes y traeme su diente como trofeo.."
+    }
+  }
+}

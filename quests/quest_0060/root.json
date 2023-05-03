@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Sabes algo sobre la fabricacion de barcos? Da igual, quieres ayudarme?"
+    }
+  }
+}

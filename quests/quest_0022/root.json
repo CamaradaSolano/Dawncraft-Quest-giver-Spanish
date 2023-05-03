@@ -1,0 +1,12 @@
+{
+  "reputation": 6,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Hey Tu, Puedes conseguirme algo de $(red)Tronco de madera de archwood irritante purpura$()?"
+    }
+  }
+}

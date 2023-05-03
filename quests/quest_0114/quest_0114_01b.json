@@ -1,0 +1,11 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 16,
+	"icon": "minecraft:iron_pickaxe",
+	"start": {
+		"title": {
+			"text": "Ayuda"
+		},
+		"description": "Haha, Lo sabia! Valiente aventurero, si alguna vez te encuentras con un bioma de hielo similar a un laberinto, busca el $(red)Fantasma de la capitana Cornelia$(). Te dare una fortuna si logras derrotarla a melee."
+	}
+}

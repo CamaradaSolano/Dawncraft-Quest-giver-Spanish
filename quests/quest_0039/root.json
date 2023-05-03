@@ -1,0 +1,12 @@
+{
+  "reputation": 45,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Escuche informacion de un grupo de forajidos extranjeros del lado este que recientemente llegaron y comenzaron a saquear pueblos. Si me puede traer un pedazo de papel, puedo hacerle un mapa para marcar su ubicacion para usted.."
+    }
+  }
+}

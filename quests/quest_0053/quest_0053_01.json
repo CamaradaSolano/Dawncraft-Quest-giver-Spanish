@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0053_01b",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Conseguiste las $(red)2 Cebollas$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Buen Trabajo, muchacho. Consigueme $(red)2 semillas de melon$() tambien?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:onion"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

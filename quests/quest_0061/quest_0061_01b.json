@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Fabricando flechas"
+    },
+    "description": {
+      "text": "Me faltan algunas plumas para hacer flechas. Puedes traerme $(red)2 plumas$()? Puedo darte algunas de las flechas despues de que haya terminado.."
+    }
+  }
+}

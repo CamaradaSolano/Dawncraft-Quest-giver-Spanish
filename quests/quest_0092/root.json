@@ -1,0 +1,12 @@
+{
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Hello aventurero... Cuando derrotes al EnderDragon, podrias hacer algo por mi? solo una cosa."
+    }
+  }
+}

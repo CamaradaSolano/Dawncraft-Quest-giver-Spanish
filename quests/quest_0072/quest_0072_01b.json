@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Una charla amistosa"
+    },
+    "description": {
+      "text": "Sabia que puede automatizar ciertos procesos, como la agricultura o la mineria, utilizando pixies del ars nouveau? Tambien puedes hacerlo creando artilugios... Pero es posible que debas hablar con un ingeniero para aprender a usarlo."
+    }
+  }
+}

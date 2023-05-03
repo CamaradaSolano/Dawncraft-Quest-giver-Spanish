@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Un Favor"
+    },
+    "description": {
+      "text": "Buena persona! Ha pasado un tiempo desde que nuestros cazadores atraparon un conejo.... Agradeceria si pudieras prescindir de cualquier  $(red) patas de conejo$() que tengas."
+    }
+  }
+}

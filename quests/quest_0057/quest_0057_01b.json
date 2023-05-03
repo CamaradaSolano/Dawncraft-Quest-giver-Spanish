@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Fabricando una Cuerda de Pescar"
+    },
+    "description": {
+      "text": "Mi cuerda de pescar esta casi rota... puedes hacerme una nueva? El artesano habitual esta fuera de la ciudad estos dias...."
+    }
+  }
+}

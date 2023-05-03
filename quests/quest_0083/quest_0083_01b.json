@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Un articulo precioso"
+    },
+    "description": {
+      "text": "Puedes ir a un lugar y recuperar un hacha de hierro? El lugar estaba invadido por orcos, asi que tuve que abandonarlo... Espera, traeme un papel, te hare un mapa."
+    }
+  }
+}

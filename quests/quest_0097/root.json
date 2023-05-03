@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Escuche que algunos de los nuestros se mudaron a castillos individuales con Artilugios del Create. Si alguna vez te encuentras con uno, podrias decirme como es el lugar?"
+    }
+  }
+}

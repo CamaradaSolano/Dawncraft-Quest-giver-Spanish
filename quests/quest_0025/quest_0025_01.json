@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0025_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Trabajo de exterminio"
+    },
+    "description": {
+      "text": "Mata al Grifo, te pagare generosamente... Pero ten mucho cuidado, por favor.."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Oh, gracias al cielo, has regresado! Tardaste tanto y me imagine lo peor... Me alegro de que estes bien. Aqui esta tu recompensa. gracias nuevamente."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:griffin_feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+      	"item": "minecraft:emerald"
+	},
+      "id": "quest_giver:item",
+      "times": 5
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Puedes darme $(red)1 Flor de esporas$() si encuentras alguna?"
+    }
+  }
+}

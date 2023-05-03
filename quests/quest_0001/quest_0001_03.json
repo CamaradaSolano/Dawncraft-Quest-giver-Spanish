@@ -1,0 +1,49 @@
+{
+  "parent": "quest_giver:quest_0001_02",
+  "reputation": 5,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "Hey."
+    },
+    "description": {
+      "text": "Hey. Encontraste el collar? Suelen esconder objetos de valor debajo de las mesas.."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Al fin!..."
+    },
+    "description": {
+      "text": "al fin, Juan... Lo recupere... No rompi mi voto... Oh, aqui tienes. Gracias por esto, significa mucho para mi."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:armorers_pendant"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+ 	   "type": "minecraft:item_nbt",
+           "item": "minecraft:iron_chestplate",
+           "nbt":  "{display:{Name:'[{\"text\":\"Oathkeeper\",\"italic\":false}]',Lore:['[{\"text\":\"Una pechera que el armero hizo especificamente para su campeon..\",\"italic\":false}]']},Enchantments:[{id:mending,lvl:1},{id:protection,lvl:2}]}"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },    
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

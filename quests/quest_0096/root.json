@@ -1,0 +1,12 @@
+{
+  "reputation": 6,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Puedes darme $(red)10 de polvo de Redstone$()? Lo pagare por supuesto."
+    }
+  }
+}

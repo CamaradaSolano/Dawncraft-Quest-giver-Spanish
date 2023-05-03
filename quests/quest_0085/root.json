@@ -1,0 +1,12 @@
+{
+  "reputation": 24,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Hey! Puedes ayudarme a conseguir algunos tallos de madera carmesi del Nether? Estoy tratando de hacer herramientas con mangos especiales."
+    }
+  }
+}

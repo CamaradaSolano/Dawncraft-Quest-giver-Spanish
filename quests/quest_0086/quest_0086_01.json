@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0086_01b",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Una solicitud urgente"
+    },
+    "description": {
+      "text": "Conseguiste los $(red)16 lingotes de Hierro$()? Por favor, apurate."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Gracias, se que no deberia pedirle a un aventurero que me ayude con la recoleccion de recursos... Pero no tengo muchas opciones. El ejercito de saqueadores se esta acercando, vendran pronto a este pueblo... Avisame si quieres un contrato de exterminio, estare encantado de ofrecerte."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 16
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

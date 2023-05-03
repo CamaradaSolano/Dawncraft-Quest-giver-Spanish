@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "Ayuda"
+    },
+    "description": {
+      "text": "Hay un $(red)cavernicola$() residiendo en una cueva cerca de nosotros. Esta criatura es extremadamente peligrosa... Nuestros clerigos creen que algun dia vendra desde abajo y nos matara a todos... Puedes exterminar a esta criatura y traerme $(rojo)partes de sus restos$() como prueba?"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:ancient_debris",
+  "start": {
+    "title": {
+      "text": "Recolectando escombros"
+    },
+    "description": {
+      "text": "Ya conseguiste los $(red)Escombros Ancestrales$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Esto... esto es increible! Toma, toma mis esmeraldas."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:ancient_debris"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    }
+  ]
+}

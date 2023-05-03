@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "Nevermind."
+    },
+    "description": {
+      "text": "El aldeano decidio en el ultimo segundo no hablar contigo."
+    }
+  }
+}

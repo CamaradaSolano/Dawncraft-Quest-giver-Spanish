@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0113_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Hola de nuevo!"
+    },
+    "description": {
+      "text": "Conseguiste la  $(red)gema$()? Puede que tengas que exterminar a la criatura para conseguirlo."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui."
+    },
+    "description": {
+      "text": "Wow... esto es increible. Esto es simplemente... asombroso. Necesitare algo de tiempo con esto. Puedes traerme un palo de madera? Creo que podria hacerte algo especial."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "simple_mobs:gem_item"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ]
+}

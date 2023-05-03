@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Anhelando una hamburguesa"
+    },
+    "description": {
+      "text": "Te dio tiempo a preparar la hamburguesa?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Eso es maravilloso! Lo guardare para mas tarde. Muchas gracias."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:hamburger"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

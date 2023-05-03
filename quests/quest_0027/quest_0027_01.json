@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0027_01b",
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "Caceria de Espiritus"
+    },
+    "description": {
+      "text": "Aun no has podido matar $(red)5 Armaduras poseidas$() ? Bueno, Esfuerzate mas, haha!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui."
+    },
+    "description": {
+      "text": "Haha, en serio lo hiciste! estas demente, pero me gusta! Aqui tienes, toma tu recompensa, bien merecida"
+    }
+  },
+  "tasks": [ 
+    {
+      "entity": "dannys_expansion:hollow_armor",
+      "id": "quest_giver:kill",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

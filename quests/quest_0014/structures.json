@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:compass",
+  "start": {
+    "title": {
+      "text": "Los ojos Descuidados"
+    },
+    "description": {
+      "text": "Que yo sepa, actualmente hay 7 ojos que estan descuidados por los portaojos. Los que se pueden encontrar en las estructuras incluyen el Maldito y el Viejo. En cuanto a los demas... Creo que la mayoria de ellos pueden fabricarse con las fuerzas vitales de nuestro reino, mientras que algunos de ellos pueden haber sido robados por bestias conscientes. Los pueblerinos pueden saber mas sobre eso que yo. Sin embargo, se que los clerigos estan actualmente en posesian del ojo malvado."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Los ojos Descuidados"
+    },
+    "description": {
+      "text": "Creo que ya no hay necesidad de buscar los ojos?"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

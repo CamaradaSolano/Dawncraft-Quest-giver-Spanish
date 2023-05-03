@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Quieres aprender sobre pesca? Se necesita paciencia, perseverancia y, lo mas importante, un buen maestro! Puedo instruirte a pescar a cambio de 15 esmeraldas, que dices?"
+    }
+  }
+}
